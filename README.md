@@ -31,17 +31,18 @@ E.g., https://as2.ftcdn.net/jpg/00/42/93/78/220_F_42937802_2rowA8aFZs20JZ2Iq6WKA
 indicates that "0" (i.e., affection) as the emotion at level-3. 
 
 (3) `test25.txt`: This txt files contains the urls of 53489 images that are used to test the models.
--------------------------------------------------------------------------------------
+
+## Citation
 
 Please cite our paper if you find it useful for your research.
-```
+
 >@inproceedings{panda2018contemplating,
 >  title={Contemplating Visual Emotions: Understanding and Overcoming Dataset Bias},
 >  author={Panda, Rameswar and Zhang, Jianming and Li, Haoxiang and Lee, Joon-Young and Lu, Xin and Roy-Chowdhury, Amit K},
 >  booktitle = {European Conference on Computer Vision},
 >  year={2018}
 >}
-```
+
  
 
 

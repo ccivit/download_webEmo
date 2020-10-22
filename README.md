@@ -1,6 +1,6 @@
-# Download WebEmo dataset
+# Download WEBEmo dataset
 
-Note: Modified README to be compatible with markdown, and added download script. The dataset and contact belong to Rameswar Panda (rpand002@ucr.edu)
+Note: Modified README to be compatible with markdown, and added the `download_dataset.py` script. The dataset and contact belong to its author, Rameswar Panda (rpand002@ucr.edu)
 
 # Dataset: WEBEmo
 

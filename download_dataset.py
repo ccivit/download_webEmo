@@ -15,10 +15,6 @@ for file in files_to_download:
     if not os.path.isdir(split):
         os.mkdir(split)
 
-    # elif file == test:
-    #     if not os.path.isdir('test'):
-    #         os.mkdir('test')
-        # split = 'test'
     print(split)
 
     with open(file, newline='') as csvfile:

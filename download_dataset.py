@@ -14,17 +14,12 @@ for file in files_to_download:
         split = 'test'
     if not os.path.isdir(split):
         os.mkdir(split)
-
     print(split)
-
     with open(file, newline='') as csvfile:
         spamreader = csv.reader(csvfile, delimiter=' ', quotechar='|')
         i = 0
         for row in spamreader:
-            # print(len(spamreader))
             i += 1
-            # if i > 10:
-            #     break
             print(row)
             url = row[0]
             category = row[1]
@@ -33,7 +28,5 @@ for file in files_to_download:
             if not os.path.isdir(os.path.join(split,category)):
                 os.mkdir(os.path.join(split,category))
             destination = os.path.join(split,category,file_name)
-
-
             print(destination)
             wget.download(url,out = destination)
